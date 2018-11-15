@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My personal collection of web development projects.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uncblythe1/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uncblythe1/Portfolio/issues"
+  },
+  "homepage": "https://github.com/uncblythe1/Portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

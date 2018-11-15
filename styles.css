@@ -1,0 +1,277 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar { 
+    background:rgb(5, 5, 4);
+    font-size: 1.5rem;
+    position: fixed !important;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: default;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #f4f4f431; color: #67a0b6; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
+
+.me {
+    margin-right: 48rem;
+}
+.header{
+    background-image: url('public/me.jpg');
+    position: relative;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top:12%;
+}
+
+h1 {
+    top: 10%;
+    left:5%;
+}
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    margin-bottom: 0;
+    background: rgba(244, 244, 244, 0.281);
+}
+
+.description{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+    color:rgb(17, 39, 43) ;
+    margin-left: 0rem;
+    margin-top: 5%;
+}
+.description h2{
+    color:rgb(224, 126, 34);
+}
+.description button{
+    border:1px  solid #F97300;
+    background:#F97300;
+    color:#fff;
+}
+
+.about{
+    margin: 1em 0;
+    padding: 1em;
+    position: relative;
+}
+.about h1{
+    background-color: black;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 4px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    color:white;
+    margin: 2em;
+}
+.about img{
+    height: 20em;
+    width: 20em;
+    border-radius: 50%
+}
+.about span{
+    background-color: black;
+    font-size: 2rem;
+    display: block;
+    color: #fff;
+    position: relative;
+    padding-left: 1rem;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 4px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+
+#jobTitle {
+    margin-top: 1rem;
+}
+.about .desc{
+    padding: 2em;
+    border-left:4px solid rgb(12, 43, 46);
+}
+.about .desc h3{
+    color: #10828C;
+}
+.about .desc p{
+    line-height:2;
+    color:#888;
+}
+
+.skills{
+    margin-top: 0em;
+    margin-bottom: 2em;
+    padding: 0em;
+    position: relative;
+}
+.skills h1{
+    background-color: black;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 4px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    color:white;
+    margin: 2em;
+}
+
+.skills .card {
+    width: 10em;
+    height: 10em;
+    margin: 0 0 0 0;
+}
+.portfolio{
+    margin-top: 4em;
+    position: relative; 
+    margin-bottom: 4em;
+}
+.portfolio h1{
+    background-color: black;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 4px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    color:white;
+    margin: 2em; 
+    margin-top: 4em;
+}
+.portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+}
+
+.contact{
+    margin: 4em 0;
+    position: relative; 
+    margin-top: 4em;
+}
+.contact h1{
+    background-color: black;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 4px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    color:white;
+    margin: 2em; 
+    margin-top: 4em;
+}
+
+.contact ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 10rem;
+    margin-top:12rem;
+    padding: 0;
+    display: flex;
+    width: 70%;
+}
+.contact ul li{
+    list-style: none;
+    margin-top: 1em;
+    margin-left: 1.25em;
+    
+}
+.contact ul li .fa{
+    font-size: 40px;
+    color: #e28317;
+    line-height: 80px;
+    transition: .5s;
+    
+}
+.contact ul li a{
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    text-align: center;
+    transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
+    transition: .5s;
+    box-shadow: -20px 20px 10px rgb(0, 0, 0, 0.5);
+}
+.contact ul li a::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    transition: .5s;
+    transform: rotate(0deg) skewY(-45deg);
+}
+.contact ul li a::after{
+    content: "";
+    position: absolute;
+    top: 80px;
+    left: -11px;
+    height: 20px;
+    width: 100%;
+    background: #b1b1b1;
+    transition: .5s;
+    transform: rotate(0deg) skewX(-45deg);
+}
+.contact ul li a:hover{
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
+}
+.contact ul li:hover .fa{
+    color: #fff;
+}
+.contact ul li a:hover{
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
+}
+.contact ul li:hover:nth-child(1) a{
+    background: #3b5999;
+}
+    
+.contact ul li:hover:nth-child(1) a:before{
+    background: #2e4a86;
+}
+.contact ul li:hover:nth-child(1) a:after{
+    background: #4a69ad;
+}
+.contact ul li:hover:nth-child(2) a{
+    background: #55acee;
+}
+.contact ul li:hover:nth-child(2) a:before{
+    background: #4184b7;
+}
+.contact ul li:hover:nth-child(2) a:after{
+    background: #4d9fde;
+}
+.contact ul li:hover:nth-child(3) a{
+    background: #dd4b39;
+}
+    
+.contact ul li:hover:nth-child(3) a:before{
+    background: #c13929;
+}
+.contact ul li:hover:nth-child(3) a:after{
+    background: #e83322;
+}
+    
+.contact ul li:hover:nth-child(4) a{
+    background: #0077B5;
+}
+    
+.contact ul li:hover:nth-child(4) a:before{
+    background: #036aa0;
+}
+.contact ul li:hover:nth-child(4) a:after{
+    background: #0d82bf;
+}
+    
+.contact ul li:hover:nth-child(5) a{
+    background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+}
+    
+.contact ul li:hover:nth-child(5) a:before{
+    background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+}
+.contact ul li:hover:nth-child(5) a:after{
+    background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+}
+
+
