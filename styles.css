@@ -111,6 +111,10 @@ h1 {
     padding: 0em;
     position: relative;
 }
+
+.skills .container {
+    align-content: center;
+}
 .skills h1{
     background-color: black;
     box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 4px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
@@ -118,10 +122,26 @@ h1 {
     margin: 2em;
 }
 
-.skills .card {
-    width: 10em;
+.skills .card{
+    box-shadow: 0 0 20px #ccc;
+}
+.skills .card img{
+    margin-left: 23%;
+    margin-top: 10%;
+    width: 50%;
     height: 10em;
-    margin: 0 0 0 0;
+}
+.skills .card-title{
+    color:#F97300;
+    text-align: center;    
+}
+.skills .card-body{
+    padding: 1em;
+}
+
+.skills .card:hover {
+    transform: scale(1.2);
+    z-index: 5;
 }
 .portfolio{
     margin-top: 4em;
@@ -169,8 +189,12 @@ h1 {
     list-style: none;
     margin-top: 1em;
     margin-left: 1.25em;
-    
 }
+
+.contact ul li:hover{
+    transform: scale(1.5);
+}
+
 .contact ul li .fa{
     font-size: 40px;
     color: #e28317;
