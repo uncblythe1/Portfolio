@@ -8,7 +8,7 @@ body {
     position: fixed !important;
     box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
 }
-.nav-link , .navbar-brand{ color: #f4f4f4; cursor: default;}
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
 .nav-link{ margin-right: 1em !important;}
 .nav-link:hover{ background: #f4f4f431; color: #67a0b6; }
 .navbar-collapse{ justify-content: flex-end;}
