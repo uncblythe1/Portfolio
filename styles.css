@@ -257,33 +257,33 @@ h1 {
     box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
 }
 .contact ul li:hover:nth-child(1) a{
-    background: #3b5999;
+    background: #191a19;
 }
     
 .contact ul li:hover:nth-child(1) a:before{
-    background: #2e4a86;
+    background: #000000;
 }
 .contact ul li:hover:nth-child(1) a:after{
-    background: #4a69ad;
+    background: #131314;
 }
 .contact ul li:hover:nth-child(2) a{
-    background: #55acee;
+    background: #3b5999;
 }
 .contact ul li:hover:nth-child(2) a:before{
-    background: #4184b7;
+    background: #2e4a86;
 }
 .contact ul li:hover:nth-child(2) a:after{
-    background: #4d9fde;
+    background: #4a69ad;
 }
 .contact ul li:hover:nth-child(3) a{
-    background: #dd4b39;
+    background: #55acee;
 }
     
 .contact ul li:hover:nth-child(3) a:before{
-    background: #c13929;
+    background: #4184b7;
 }
 .contact ul li:hover:nth-child(3) a:after{
-    background: #e83322;
+    background: #4d9fde;
 }
     
 .contact ul li:hover:nth-child(4) a{
